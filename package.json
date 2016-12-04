@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "for my university projects",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.14.0",
+    "sequelize": "^3.5.1",
+    "sqlite3": "^3.1.8",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Woookiee/Food-Delivery.git"
+  },
+  "author": "Khabibov Daler as Wookiee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Woookiee/Food-Delivery/issues"
+  },
+  "homepage": "https://github.com/Woookiee/Food-Delivery#readme"
+}
