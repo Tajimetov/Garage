@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "for my university projects",
+  "description": "my projects",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.13.3",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Woookiee/Food-Delivery.git"
+    "url": "git+https://github.com/Tajimetov/Garage.git"
   },
-  "author": "Khabibov Daler as Wookiee",
+  "author": "Tajimetov N",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Woookiee/Food-Delivery/issues"
+    "url": "https://github.com/Tajimetov//issues"
   },
-  "homepage": "https://github.com/Woookiee/Food-Delivery#readme"
+  "homepage": "https://github.com/Tajimetov/Garage#readme"
 }

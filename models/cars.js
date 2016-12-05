@@ -14,6 +14,14 @@ module.exports = function(sequelize, DataTypes) {
 				len: [1, 25]
 			}
 		},
+		amount: {
+			type: DataTypes.INTEGER,
+			allowNull: false,
+			defaultValue: 1,
+			validate: {
+				isInt: true
+			}
+		},
 		number: {
 			type: DataTypes.STRING,
 			allowNull: false,
