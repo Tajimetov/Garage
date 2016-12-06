@@ -103,10 +103,11 @@ console.log('Method POST for /apartments working');
 // PUT /apartments/:id
 app.put('/apartments/:id', function(req, res) {
 	var apartmentsNextNum = parseInt(req.params.id, 10);
-	var body = _.pick(req.body, 'location');
+	var body = _.pick(req.body, 'location','price');
 	var attributes = {};
 
-	if (body.hasOwnProperty('location')) {
+	if (body.hasOwnProperty('location','price')) {
+		attributes.price=body.price;
 		attributes.location = body.location;
 	}
 	db.apartments.findById(apartmentsNextNum).then(function(apartments){
